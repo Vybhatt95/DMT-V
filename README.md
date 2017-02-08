@@ -1,2 +1,1 @@
-Open source video game.
-Featuring multiplayer.
+TODO: Project description.
