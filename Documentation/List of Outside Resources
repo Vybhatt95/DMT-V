@@ -1,3 +1,10 @@
 This file will contain a list of outside assets and resources used in the project.
 Please cite the sources in a proper format and not just by URL.
 Note: Be sure that the original creator of these resources are giving explicit permission to be used in open-source software.
+
+Libraries
+1.  Unreal Engine version 4.  Epic Games. 2015. Game Engine
+2.  Microsoft Visual C++ Runtime.  Microsoft Corporation. 2013.  Runtime Libraries
+
+Coding Reference
+3.  "Networking and Multiplayer."  Unreal Engine 4 Documentation Feb 2017, https://docs.unrealengine.com/latest/INT/Gameplay/Networking/index.html
