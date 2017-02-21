@@ -8,22 +8,22 @@ Over the years, there has been a surge in popularity of massively multiplayer on
 
 ###Requirements to Run Software
 To execute the standalone video game program:
-  Windows OS (tested at 7 or newer).
-  Keyboard
-  Mouse
-  Internet Connection (tentatively, > 2 MBps)
-  Visual Studio Service Pack (TODO: type? version? verification)
+ * Windows OS (tested at 7 or newer).
+ * Keyboard
+ * Mouse
+ * Internet Connection (tentatively, > 2 MBps)
+ * Visual Studio Service Pack (TODO: type? version? verification)
   
 To compile the code (above requirements, in addition to):  
-  Unreal Editor (tested on v 4.14.3)
-  To download the latest Unreal Engine, please visit their website at: [www.UnrealEngine.com](https://www.unrealengine.com/what-is-unreal-engine-4).
+  * Unreal Editor (tested on v 4.14.3)
+  * To download the latest Unreal Engine, please visit their website at: [www.UnrealEngine.com](https://www.unrealengine.com/what-is-unreal-engine-4).
 
 ###What does this repository contain?
   All source code files.
-    C++
-    Blueprint
-  Assets (TODO: feasbility?)
-  Unreal Engine classes have not been uploaded to this repository. 
+   * C++
+   * Blueprint
+   * Assets (TODO: feasbility?)
+   * Unreal Engine classes have not been uploaded to this repository. 
 
 ###Team Members and Responsibilities
 
