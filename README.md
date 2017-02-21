@@ -3,10 +3,10 @@
 ###Project Statement
 
 
-#Project Description
+###Project Description
 Over the years, there has been a surge in popularity of massively multiplayer online games. One prominent feature of these games is the dungeon raiding mechanics they employ. Players form groups to fight hordes of enemies and powerful bosses as they travel through dungeons in order to obtain rare items. However, players will usually have to play for many hours before they can experience these adventures, as they require high-leveled and well-equipped characters to survive. With our game, players will be able to form a group and raid dungeons right from the beginning.
 
-#Requirements to Run Software
+###Requirements to Run Software
 To execute the standalone video game program:
   Windows OS (tested at 7 or newer).
   Keyboard
@@ -18,14 +18,14 @@ To compile the code (above requirements, in addition to):
   Unreal Editor (tested on v 4.14.3)
   To download the latest Unreal Engine, please visit their website at: [www.UnrealEngine.com](https://www.unrealengine.com/what-is-unreal-engine-4).
 
-#What does this repository contain?
+###What does this repository contain?
   All source code files.
     C++
     Blueprint
   Assets (TODO: feasbility?)
   Unreal Engine classes have not been uploaded to this repository. 
 
-#Team Members and Responsibilities
+###Team Members and Responsibilities
 
   David Bond: 
   Coding of the Game State major subsystem. 
@@ -47,6 +47,6 @@ To compile the code (above requirements, in addition to):
   Coordination of audio and sound aspects of the game. 
   Research into open-source world meshes, level designs, and audio assets.
 
-#System Model Diagram
+###System Model Diagram
 
-#Screenshots (TODO)
+###Screenshots (TODO)
