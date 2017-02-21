@@ -27,22 +27,22 @@ To compile the code (above requirements, in addition to):
 
 ###Team Members and Responsibilities
 
-  David Bond: 
+ David Bond: 
   * Coding of the Game State major subsystem. 
   * Research into the networking aspect of the Unreal Engine. 
   * Coding of the Save and Load systems.
 
-  Matthew Yengle: 
+ Matthew Yengle: 
   * Coding of the Game Mode. Item Database, and User Interface major subsystems. 
   * Coding of the Equipment and Inventory minor subsystems.
   * Research into open-source item models, including weaponry and armor.
 
-  Timothy Canipe: 
+ Timothy Canipe: 
   * Coding of the Character, Player Character, and Non-Player Character subsystems.
   * Coding of the Skills and Attributes minor subsystems. 
   * Research into open-source character models, animations, and assets.
 
-  Vishal Bhatt:
+ Vishal Bhatt:
   * Coding of the Game World and Game Level major subsystems. 
   * Coordination of audio and sound aspects of the game. 
   * Research into open-source world meshes, level designs, and audio assets.
