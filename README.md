@@ -9,15 +9,15 @@ Over the years, there has been a surge in popularity of massively multiplayer on
 ###Requirements to Run Software
 To execute the standalone video game program:
  * Recommended System Requirements (Tentative)
-    -OS: Windows OS (tested at 7 or newer).
-    -Processor: Intel Core i5-2400 @ 3.10 GHz
-    -Memory: 4GB System RAM
-    -Hard Disk Space: **TBA**
-    -Video Card: Radeon HD 7700 or NVIDIA GeForce GTX 570
-    -DirectX: 11.0
-    -Sound Card: DirectX Compatible Sound Card 
-    -Internet: A broadband Internet connection.
-    -Visual Studio Service Pack: **TBA**
+    - OS: Windows OS (tested at 7 or newer).
+    - Processor: Intel Core i5-2400 @ 3.10 GHz
+    - Memory: 4GB System RAM
+    - Hard Disk Space: **TBA**
+    - Video Card: Radeon HD 7700 or NVIDIA GeForce GTX 570
+    - DirectX: 11.0
+    - Sound Card: DirectX Compatible Sound Card 
+    - Internet: A broadband Internet connection.
+    - Visual Studio Service Pack: **TBA**
   
 To compile the code (above requirements, in addition to):  
   * Unreal Editor (tested on v 4.14.3)
