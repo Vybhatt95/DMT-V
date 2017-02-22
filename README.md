@@ -8,23 +8,29 @@ Over the years, there has been a surge in popularity of massively multiplayer on
 
 ###Requirements to Run Software
 To execute the standalone video game program:
- * Windows OS (tested at 7 or newer).
-    - System Requirements
- * Keyboard
- * Mouse
- * Internet Connection (tentatively, > 2 MBps)
- * Visual Studio Service Pack (TODO: type? version? verification)
+ * Recommended System Requirements (Tentative)
+    -OS: Windows OS (tested at 7 or newer).
+    -Processor: Intel Core i5-2400 @ 3.10 GHz
+    -Memory: 4GB System RAM
+    -Hard Disk Space: **TBA**
+    -Video Card: Radeon HD 7700 or NVIDIA GeForce GTX 570
+    -DirectX: 11.0
+    -Sound Card: DirectX Compatible Sound Card 
+    -Internet: A broadband Internet connection.
+    -Visual Studio Service Pack: **TBA**
   
 To compile the code (above requirements, in addition to):  
   * Unreal Editor (tested on v 4.14.3)
   * To download the latest Unreal Engine, please visit their website at: [www.UnrealEngine.com](https://www.unrealengine.com/what-is-unreal-engine-4).
 
 ###What does this repository contain?
-  All source code files.
-   * C++
-   * Blueprint
+   * All source code files.
+       - C++
+       - Blueprint
    * Assets (TODO: feasbility?)
-   * Unreal Engine classes have not been uploaded to this repository. 
+  
+###What does this repository not contain?   
+   * Unreal Engine class files have not been uploaded to this repository. 
 
 ###Team Members and Responsibilities
 
