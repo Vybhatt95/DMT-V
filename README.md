@@ -9,6 +9,7 @@ Over the years, there has been a surge in popularity of massively multiplayer on
 ###Requirements to Run Software
 To execute the standalone video game program:
  * Windows OS (tested at 7 or newer).
+    - System Requirements
  * Keyboard
  * Mouse
  * Internet Connection (tentatively, > 2 MBps)
