@@ -1,7 +1,7 @@
 ##DMT-V
 
 ###Project Statement
-
+A multiplayer video game built using Unreal Engine 4 that allows for 3 to 5 players to fight AI controlled monsters in a dungeon-like setting.
 
 ###Project Description
 Over the years, there has been a surge in popularity of massively multiplayer online games. One prominent feature of these games is the dungeon raiding mechanics they employ. Players form groups to fight hordes of enemies and powerful bosses as they travel through dungeons in order to obtain rare items. However, players will usually have to play for many hours before they can experience these adventures, as they require high-leveled and well-equipped characters to survive. With our game, players will be able to form a group and raid dungeons right from the beginning.
@@ -31,7 +31,8 @@ To compile the code (above requirements, in addition to):
   
 ###What does this repository not contain?   
    * Unreal Engine class files have not been uploaded to this repository. 
-   *Steam SDK package
+   * Steam SDK packages
+   *Visual Studio Files
 
 ###Team Members and Responsibilities (Subject to Change)
 
