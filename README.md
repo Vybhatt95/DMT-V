@@ -31,8 +31,9 @@ To compile the code (above requirements, in addition to):
   
 ###What does this repository not contain?   
    * Unreal Engine class files have not been uploaded to this repository. 
+   *Steam SDK package
 
-###Team Members and Responsibilities
+###Team Members and Responsibilities (Subject to Change)
 
 David Bond: 
   * Coding of the Game State major subsystem. 
@@ -54,6 +55,6 @@ Vishal Bhatt:
   * Coordination of audio and sound aspects of the game. 
   * Research into open-source world meshes, level designs, and audio assets.
 
-###System Model Diagram
+###System Model Diagram (TODO: Create a more accurate system model)
 
 ###Screenshots (TODO)
