@@ -8,6 +8,9 @@ Libraries
 
 Coding Reference
 3.  "Networking and Multiplayer."  Unreal Engine 4 Documentation Feb 2017, https://docs.unrealengine.com/latest/INT/Gameplay/Networking/index.html
+4.  "Pawn."  Unreal Engine 4 Documentation Feb 2017, https://docs.unrealengine.com/latest/INT/Gameplay/Framework/Pawn/
+5.  "AGameMode." Unreal Engine 4 Documentation Feb 2017, https://docs.unrealengine.com/latest/INT/API/Runtime/Engine/GameFramework/AGameModeBase/index.html
+6.  "AGameSession." Unreal Engine 4 Documentation Feb 2017, https://docs.unrealengine.com/latest/INT/API/Runtime/Engine/GameFramework/AGameSession/index.html
 
 Assets
 Epic Games' Infinite Blade Collection:
