@@ -32,7 +32,7 @@ To compile the code (above requirements, in addition to):
 ###What does this repository not contain?   
    * Unreal Engine class files have not been uploaded to this repository. 
    * Steam SDK packages
-   *Visual Studio Files
+   * Visual Studio Files
 
 ###Team Members and Responsibilities (Subject to Change)
 
