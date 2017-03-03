@@ -1,4 +1,4 @@
-##DMT-V
+##Dungeon of the Mighty Titan - Vanquish
 
 ###Project Statement
 A multiplayer video game built using Unreal Engine 4 that allows for 3 to 5 players to fight AI controlled monsters in a dungeon-like setting.
@@ -24,15 +24,16 @@ To compile the code (above requirements, in addition to):
   * To download the latest Unreal Engine, please visit their website at: [www.UnrealEngine.com](https://www.unrealengine.com/what-is-unreal-engine-4).
 
 ###What does this repository contain?
-   * All source code files.
+   * All source code files:
        - C++
        - Blueprint
-   * Assets (TODO: feasbility?)
+   * Assets 
+   * Documentation
   
 ###What does this repository not contain?   
-   * Unreal Engine class files have not been uploaded to this repository. 
+   * Unreal Engine class files
    * Steam SDK packages
-   * Visual Studio Files
+   * Visual Studio files
 
 ###Team Members and Responsibilities (Subject to Change)
 
