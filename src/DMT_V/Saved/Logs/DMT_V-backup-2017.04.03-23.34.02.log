@@ -1,0 +1,1031 @@
+﻿Log file open, 04/03/17 22:02:46
+LogInit:Display: Running engine for game: DMT_V
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1439971982) SRandInit(-1439971982).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078058
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.04-02.02.48:189][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.04-02.02.48:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.04-02.02.48:197][  0]LogInit: Computer: MYSTOGAN
+[2017.04.04-02.02.48:197][  0]LogInit: User: Noctis
+[2017.04.04-02.02.48:197][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.04-02.02.48:197][  0]LogInit: High frequency timer resolution =3.421880 MHz
+[2017.04.04-02.02.48:197][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.04.04-02.02.48:197][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.04-02.02.48:197][  0]LogMemory: Process Physical Memory: 264.79 MB used, 264.79 MB peak
+[2017.04.04-02.02.48:197][  0]LogMemory: Process Virtual Memory: 263.68 MB used, 263.68 MB peak
+[2017.04.04-02.02.48:197][  0]LogMemory: Physical Memory: 6475.99 MB used,  9867.89 MB free, 16343.88 MB total
+[2017.04.04-02.02.48:197][  0]LogMemory: Virtual Memory: 643.13 MB used,  9867.89 MB free, 134217728.00 MB total
+[2017.04.04-02.02.48:574][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.04-02.02.49:185][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.04-02.02.49:674][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.04.04-02.02.49:674][  0]LogD3D11RHI:       2017/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.04-02.02.49:675][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.04-02.02.49:675][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.04-02.02.49:675][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.04-02.02.49:680][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.04-02.02.49:680][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.04-02.02.49:680][  0]LogWindows: EnumDisplayDevices:
+[2017.04.04-02.02.49:680][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.04.04-02.02.49:680][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.04-02.02.49:680][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.04-02.02.49:680][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.04.04-02.02.49:680][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.04-02.02.49:680][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.04.04-02.02.49:680][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.04.04-02.02.49:680][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.04.04-02.02.49:680][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.04-02.02.50:140][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.04.04-02.02.50:140][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.04-02.02.50:177][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.04-02.02.50:224][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Intermediate/Shaders/WorkingDirectory/6816/).
+[2017.04.04-02.02.50:224][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Noctis/AppData/Local/Temp/UnrealShaderWorkingDir/144FE9D846665938746EB2A17E0F7A98/'.
+[2017.04.04-02.02.50:224][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.04-02.02.51:306][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.04-02.02.51:362][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.04-02.02.51:418][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.04-02.02.51:474][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.04-02.02.51:529][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.04-02.02.51:585][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.04-02.02.51:641][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.04-02.02.51:702][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.04-02.02.51:746][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.04-02.02.51:803][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.04-02.02.51:857][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.04-02.02.51:913][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.04-02.02.51:969][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.04-02.02.52:029][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.04-02.02.52:083][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.04-02.02.52:201][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.04-02.02.52:201][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.04-02.02.52:244][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.04-02.02.52:351][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.04-02.02.52:391][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.04-02.02.52:451][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.04-02.02.52:512][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.04-02.02.52:569][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.04-02.02.52:625][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.04-02.02.52:625][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.04-02.02.53:094][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.04-02.02.53:146][  0]LogDerivedDataCache: Loaded boot cache 0.05s 60MB C:/Users/Noctis/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.04-02.02.53:146][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Noctis/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.04-02.02.53:147][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.04-02.02.53:147][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.04-02.02.53:147][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.04-02.02.53:147][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.04-02.02.53:163][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.04-02.02.53:174][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Noctis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.04-02.02.53:183][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.04-02.02.53:183][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.04-02.02.53:183][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.04-02.02.53:410][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.04-02.02.53:412][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.04-02.02.53:613][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.04-02.02.53:663][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.04-02.02.53:724][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.04-02.02.53:724][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.04-02.02.53:724][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.04-02.02.54:265][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: dmt_v, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3867609599
+[2017.04.04-02.02.54:311][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2017.04.04-02.02.54:359][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027408 seconds
+[2017.04.04-02.02.54:364][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.04-02.02.54:364][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.04-02.02.54:364][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.04-02.02.54:435][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.04-02.02.56:167][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.04-02.02.56:206][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.04-02.02.56:795][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.04-02.02.57:288][  0]SourceControl: Info Source control is disabled
+[2017.04.04-02.02.57:289][  0]SourceControl: Info Source control is disabled
+[2017.04.04-02.02.57:347][  0]SourceControl: Info Source control is disabled
+[2017.04.04-02.02.57:397][  0]SourceControl: Info Source control is disabled
+[2017.04.04-02.02.58:761][  0]LogEngine: Initializing Engine...
+[2017.04.04-02.02.58:762][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.04-02.02.58:995][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.04-02.02.59:030][  0]LogInit: XAudio2 using 'E241-A1-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.04-02.02.59:040][  0]LogInit: FAudioDevice initialized.
+[2017.04.04-02.02.59:101][  0]LogDerivedDataCache: Saved boot cache 0.06s 60MB C:/Users/Noctis/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.04-02.02.59:109][  0]LogInit: Texture streaming: Enabled
+[2017.04.04-02.02.59:215][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.04-02.02.59:312][  0]LogInit: Transaction tracking system initialized
+[2017.04.04-02.02.59:696][  0]BlueprintLog: New page: Editor Load
+[2017.04.04-02.03.00:732][  0]LocalizationService: Info Localization service is disabled
+[2017.04.04-02.03.01:663][  0]LogConsoleResponse:Display: 
+[2017.04.04-02.03.01:803][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.04-02.03.01:803][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.04-02.03.03:033][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/' took 0.03s
+[2017.04.04-02.03.03:094][  0]SourceControl: Info Source control is disabled
+[2017.04.04-02.03.03:095][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Maps/Map_Grid_Example.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.04-02.03.03:162][  0]LightingResults: New page: Lighting Build
+[2017.04.04-02.03.03:218][  0]MapCheck: New page: Map Check
+[2017.04.04-02.03.03:218][  0]LightingResults: New page: Lighting Build
+[2017.04.04-02.03.04:612][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:AddItemToInventory.Item'. Unknown structure.
+[2017.04.04-02.03.04:612][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:EquipWeapon.NewWeapon'. Unknown structure.
+[2017.04.04-02.03.04:612][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:RemoveItemFromInventory.Item'. Unknown structure.
+[2017.04.04-02.03.04:612][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:EquipHead.NewHeadArmor'. Unknown structure.
+[2017.04.04-02.03.04:612][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:EquipChest.NewChestArmor'. Unknown structure.
+[2017.04.04-02.03.04:612][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:EquipFeet.NewFeetArmor'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_CustomEvent_Item2'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_CustomEvent_NewWeapon'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_CustomEvent_Item'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_MakeStruct_Struct_Item'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_CustomEvent_NewHeadArmor'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_CustomEvent_NewChestArmor'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_MakeStruct_Struct_Item2'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_MakeStruct_Struct_Item3'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_CustomEvent_NewFeetArmor'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.K2Node_MakeStruct_Struct_Item4'. Unknown structure.
+[2017.04.04-02.03.04:616][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ExecuteUbergraph_ATBTT_PlayerController.CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
+[2017.04.04-02.03.04:617][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:Weapon'. Unknown structure.
+[2017.04.04-02.03.04:617][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:HeadArmor'. Unknown structure.
+[2017.04.04-02.03.04:617][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:ChestArmor'. Unknown structure.
+[2017.04.04-02.03.04:617][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:FeetArmor'. Unknown structure.
+[2017.04.04-02.03.04:617][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController_C:Inventory.Inventory'. Unknown structure.
+[2017.04.04-02.03.04:919][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF'
+[2017.04.04-02.03.04:919][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.04:919][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF
+[2017.04.04-02.03.05:177][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Inventory_DragDropOperation.Inventory_DragDropOperation_C:Item'. Unknown structure.
+[2017.04.04-02.03.05:177][  0]LogClass:Warning: Property Item of Item has a struct type mismatch (tag STRUCT_REINST_Struct_Item_0 != prop FallbackStruct) in package:  ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Inventory_DragDropOperation.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.05:178][  0]LogClass:Warning: Property Item of Item has a struct type mismatch (tag FallbackStruct != prop Struct_Item) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.05:289][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF'
+[2017.04.04-02.03.05:290][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.05:290][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF
+[2017.04.04-02.03.05:290][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF'
+[2017.04.04-02.03.05:290][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.05:290][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF
+[2017.04.04-02.03.05:290][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF'
+[2017.04.04-02.03.05:290][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF.Arrow_DIFF Referenced by Default__Inventory_C
+[2017.04.04-02.03.05:290][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.05:290][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF.Arrow_DIFF Referenced by Default__Inventory_C
+[2017.04.04-02.03.05:290][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF
+[2017.04.04-02.03.05:576][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:576][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_aim_recoil.uasset.
+[2017.04.04-02.03.05:576][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_aim_recoil : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:576][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:576][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_aim_recoil.uasset.
+[2017.04.04-02.03.05:576][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_aim_recoil : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:629][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:630][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_draw_arrow.uasset.
+[2017.04.04-02.03.05:630][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_draw_arrow : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:630][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:630][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_draw_arrow.uasset.
+[2017.04.04-02.03.05:630][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_draw_arrow : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:630][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:630][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_shoot_arrow.uasset.
+[2017.04.04-02.03.05:630][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_shoot_arrow : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:630][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:630][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_shoot_arrow.uasset.
+[2017.04.04-02.03.05:631][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_shoot_arrow : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:701][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:701][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_death_backward_01.uasset.
+[2017.04.04-02.03.05:701][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_death_backward_01 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:701][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:701][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_death_backward_01.uasset.
+[2017.04.04-02.03.05:701][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_death_backward_01 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:732][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:732][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_idle_02_looking.uasset.
+[2017.04.04-02.03.05:732][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_idle_02_looking : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:732][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:732][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_idle_02_looking.uasset.
+[2017.04.04-02.03.05:732][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_idle_02_looking : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:761][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:761][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_react_small_from_front.uasset.
+[2017.04.04-02.03.05:761][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_react_small_from_front : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:761][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:761][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_react_small_from_front.uasset.
+[2017.04.04-02.03.05:761][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_react_small_from_front : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:823][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:823][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_idle_01.uasset.
+[2017.04.04-02.03.05:823][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_idle_01 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:823][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:823][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_idle_01.uasset.
+[2017.04.04-02.03.05:823][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_idle_01 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:859][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:859][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_run_forward_inPlace.uasset.
+[2017.04.04-02.03.05:859][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_run_forward_inPlace : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:859][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:859][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_run_forward_inPlace.uasset.
+[2017.04.04-02.03.05:859][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_run_forward_inPlace : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:891][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:891][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_walk_forward_inPlace.uasset.
+[2017.04.04-02.03.05:891][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_walk_forward_inPlace : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:891][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:891][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_walk_forward_inPlace.uasset.
+[2017.04.04-02.03.05:891][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/standing_walk_forward_inPlace : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:891][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:891][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/Blend_Space_Huntress.uasset.
+[2017.04.04-02.03.05:892][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/Blend_Space_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:892][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:892][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/Blend_Space_Huntress.uasset.
+[2017.04.04-02.03.05:892][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/Blend_Space_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:894][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:894][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/Huntress_Anim_BP_Parent.uasset.
+[2017.04.04-02.03.05:894][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/Huntress_Anim_BP_Parent : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:894][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:894][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Huntress/Huntress_Anim_BP_Parent.uasset.
+[2017.04.04-02.03.05:894][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/Huntress_Anim_BP_Parent : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:895][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:895][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by Huntress_Anim_BP_Parent_C
+[2017.04.04-02.03.05:895][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:895][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by Huntress_Anim_BP_Parent_C
+[2017.04.04-02.03.05:895][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:899][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:899][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:899][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:899][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:899][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:899][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:900][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:900][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by Huntress_Anim_BP_Parent
+[2017.04.04-02.03.05:900][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:900][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by Huntress_Anim_BP_Parent
+[2017.04.04-02.03.05:900][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:913][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:913][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by Blend_Space_Huntress
+[2017.04.04-02.03.05:913][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:913][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by Blend_Space_Huntress
+[2017.04.04-02.03.05:913][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:914][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:914][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_shoot_arrow
+[2017.04.04-02.03.05:914][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:914][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_shoot_arrow
+[2017.04.04-02.03.05:914][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:914][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:914][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_death_backward_01
+[2017.04.04-02.03.05:914][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:915][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_death_backward_01
+[2017.04.04-02.03.05:915][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:915][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:915][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_react_small_from_front
+[2017.04.04-02.03.05:915][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:915][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_react_small_from_front
+[2017.04.04-02.03.05:915][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:916][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.05:916][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_idle_02_looking
+[2017.04.04-02.03.05:916][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.05:916][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_idle_02_looking
+[2017.04.04-02.03.05:916][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton
+[2017.04.04-02.03.05:923][  0]LogBlueprint:Error: [Compiler Huntress_Anim_BP_Parent] Error  Huntress_Anim_BP_Parent  - The skeleton asset for this animation Blueprint is missing, so it cannot be compiled!
+[2017.04.04-02.03.05:930][  0]LogBlueprint:Warning: [Compiler Huntress_Anim_BP_Parent] Warning [0020.30] Compile of Huntress_Anim_BP_Parent failed. 1 Fatal Issue(s) 0 Warning(s) [in 11 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/Huntress_Anim_BP_Parent.Huntress_Anim_BP_Parent)
+[2017.04.04-02.03.05:930][  0]LogBlueprint:Warning: [Compiler Huntress_Anim_BP_Parent] Warning [0020.30] Compile of Huntress_Anim_BP_Parent failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/Huntress_Anim_BP_Parent.Huntress_Anim_BP_Parent)
+[2017.04.04-02.03.05:930][  0]LogBlueprint:Warning: [Compiler Huntress_Anim_BP_Parent] Warning [0020.30] Compile of Huntress_Anim_BP_Parent failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Huntress/Huntress_Anim_BP_Parent.Huntress_Anim_BP_Parent)
+[2017.04.04-02.03.06:515][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow'
+[2017.04.04-02.03.06:515][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.06:515][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow
+[2017.04.04-02.03.06:516][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow'
+[2017.04.04-02.03.06:516][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress.uasset.
+[2017.04.04-02.03.06:516][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Huntress : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow
+[2017.04.04-02.03.06:519][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow'
+[2017.04.04-02.03.06:519][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow.Erika_Archer_with_bow_arrow Referenced by SkeletalMesh928ECEC842EC5B126434458BD66D5BBD
+[2017.04.04-02.03.06:519][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.06:519][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow.Erika_Archer_with_bow_arrow Referenced by SkeletalMesh928ECEC842EC5B126434458BD66D5BBD
+[2017.04.04-02.03.06:519][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow
+[2017.04.04-02.03.06:609][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:609][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_death.uasset.
+[2017.04.04-02.03.06:610][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_death : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:610][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:610][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_death.uasset.
+[2017.04.04-02.03.06:610][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_death : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:666][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:666][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_idle.uasset.
+[2017.04.04-02.03.06:666][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_idle : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:666][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:666][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_idle.uasset.
+[2017.04.04-02.03.06:666][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_idle : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:709][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:710][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_impact.uasset.
+[2017.04.04-02.03.06:710][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_impact : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:710][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:710][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_impact.uasset.
+[2017.04.04-02.03.06:710][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_impact : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:748][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:748][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_slash.uasset.
+[2017.04.04-02.03.06:748][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_slash : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:748][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:748][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_slash.uasset.
+[2017.04.04-02.03.06:748][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_slash : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:815][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:815][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_idle_3.uasset.
+[2017.04.04-02.03.06:815][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_idle_3 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:815][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:815][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_idle_3.uasset.
+[2017.04.04-02.03.06:815][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_idle_3 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:862][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:862][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_run_inPlace.uasset.
+[2017.04.04-02.03.06:862][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_run_inPlace : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:862][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:862][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_run_inPlace.uasset.
+[2017.04.04-02.03.06:863][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_run_inPlace : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:863][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace'
+[2017.04.04-02.03.06:863][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/Blend_Space_Knight.uasset.
+[2017.04.04-02.03.06:863][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Blend_Space_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace
+[2017.04.04-02.03.06:863][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace'
+[2017.04.04-02.03.06:863][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/Blend_Space_Knight.uasset.
+[2017.04.04-02.03.06:863][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Blend_Space_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace
+[2017.04.04-02.03.06:863][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:863][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/Blend_Space_Knight.uasset.
+[2017.04.04-02.03.06:863][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Blend_Space_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:864][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:864][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/Blend_Space_Knight.uasset.
+[2017.04.04-02.03.06:864][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Blend_Space_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:866][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:866][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/Knight_Anim_BP_Parent.uasset.
+[2017.04.04-02.03.06:866][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Knight_Anim_BP_Parent : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:866][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:866][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Knight/Knight_Anim_BP_Parent.uasset.
+[2017.04.04-02.03.06:866][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Knight_Anim_BP_Parent : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:866][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:866][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by Knight_Anim_BP_Parent_C
+[2017.04.04-02.03.06:866][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:867][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by Knight_Anim_BP_Parent_C
+[2017.04.04-02.03.06:867][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:868][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:868][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:868][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:868][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:868][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:868][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:869][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:869][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by Knight_Anim_BP_Parent
+[2017.04.04-02.03.06:869][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:869][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by Knight_Anim_BP_Parent
+[2017.04.04-02.03.06:869][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:879][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace'
+[2017.04.04-02.03.06:879][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace.sword_and_shield_walk_inPlace Referenced by Blend_Space_Knight
+[2017.04.04-02.03.06:879][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:879][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace.sword_and_shield_walk_inPlace Referenced by Blend_Space_Knight
+[2017.04.04-02.03.06:880][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Knight/sword_and_shield_walk_inPlace
+[2017.04.04-02.03.06:880][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:880][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by Blend_Space_Knight
+[2017.04.04-02.03.06:880][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:880][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by Blend_Space_Knight
+[2017.04.04-02.03.06:880][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:880][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:881][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_slash
+[2017.04.04-02.03.06:881][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:881][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_slash
+[2017.04.04-02.03.06:881][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:882][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:882][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_death
+[2017.04.04-02.03.06:882][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:882][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_death
+[2017.04.04-02.03.06:882][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:882][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:882][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_impact
+[2017.04.04-02.03.06:882][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:882][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_impact
+[2017.04.04-02.03.06:882][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:883][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.06:883][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_idle
+[2017.04.04-02.03.06:883][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:883][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_idle
+[2017.04.04-02.03.06:883][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton
+[2017.04.04-02.03.06:888][  0]LogBlueprint:Error: [Compiler Knight_Anim_BP_Parent] Error  Knight_Anim_BP_Parent  - The skeleton asset for this animation Blueprint is missing, so it cannot be compiled!
+[2017.04.04-02.03.06:894][  0]LogBlueprint:Warning: [Compiler Knight_Anim_BP_Parent] Warning [0021.27] Compile of Knight_Anim_BP_Parent failed. 1 Fatal Issue(s) 0 Warning(s) [in 9 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Knight_Anim_BP_Parent.Knight_Anim_BP_Parent)
+[2017.04.04-02.03.06:894][  0]LogBlueprint:Warning: [Compiler Knight_Anim_BP_Parent] Warning [0021.27] Compile of Knight_Anim_BP_Parent failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Knight_Anim_BP_Parent.Knight_Anim_BP_Parent)
+[2017.04.04-02.03.06:894][  0]LogBlueprint:Warning: [Compiler Knight_Anim_BP_Parent] Warning [0021.27] Compile of Knight_Anim_BP_Parent failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Knight/Knight_Anim_BP_Parent.Knight_Anim_BP_Parent)
+[2017.04.04-02.03.06:896][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom'
+[2017.04.04-02.03.06:896][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:896][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom
+[2017.04.04-02.03.06:897][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom'
+[2017.04.04-02.03.06:897][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight.uasset.
+[2017.04.04-02.03.06:897][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Knight : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom
+[2017.04.04-02.03.06:899][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom'
+[2017.04.04-02.03.06:899][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom.Paladin_w_Prop_J_Nordstrom Referenced by SkeletalMesh928ECEC842EC5B126434458BD66D5BBD
+[2017.04.04-02.03.06:899][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.06:899][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom.Paladin_w_Prop_J_Nordstrom Referenced by SkeletalMesh928ECEC842EC5B126434458BD66D5BBD
+[2017.04.04-02.03.06:899][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom
+[2017.04.04-02.03.06:981][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.06:981][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_1H_Magic_Attack_01.uasset.
+[2017.04.04-02.03.06:981][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_1H_Magic_Attack_01 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.06:981][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.06:981][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_1H_Magic_Attack_01.uasset.
+[2017.04.04-02.03.06:981][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_1H_Magic_Attack_01 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:050][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:050][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/standing_idle_02.uasset.
+[2017.04.04-02.03.07:050][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/standing_idle_02 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:050][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:050][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/standing_idle_02.uasset.
+[2017.04.04-02.03.07:050][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/standing_idle_02 : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:114][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:115][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Death_Backward.uasset.
+[2017.04.04-02.03.07:115][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Death_Backward : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:115][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:115][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Death_Backward.uasset.
+[2017.04.04-02.03.07:115][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Death_Backward : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:115][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front'
+[2017.04.04-02.03.07:115][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent.uasset.
+[2017.04.04-02.03.07:115][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front
+[2017.04.04-02.03.07:157][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:157][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/standing_idle.uasset.
+[2017.04.04-02.03.07:158][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/standing_idle : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:158][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:158][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/standing_idle.uasset.
+[2017.04.04-02.03.07:158][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/standing_idle : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:181][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:181][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Run_Forward_inPlace.uasset.
+[2017.04.04-02.03.07:181][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Run_Forward_inPlace : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:181][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:181][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Run_Forward_inPlace.uasset.
+[2017.04.04-02.03.07:181][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Run_Forward_inPlace : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:181][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace'
+[2017.04.04-02.03.07:181][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Blend_Space_Mage.uasset.
+[2017.04.04-02.03.07:181][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Blend_Space_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace
+[2017.04.04-02.03.07:182][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace'
+[2017.04.04-02.03.07:182][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Blend_Space_Mage.uasset.
+[2017.04.04-02.03.07:182][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Blend_Space_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace
+[2017.04.04-02.03.07:182][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:182][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Blend_Space_Mage.uasset.
+[2017.04.04-02.03.07:182][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Blend_Space_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:182][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:182][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Blend_Space_Mage.uasset.
+[2017.04.04-02.03.07:182][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Blend_Space_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:184][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front'
+[2017.04.04-02.03.07:184][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent.uasset.
+[2017.04.04-02.03.07:184][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front
+[2017.04.04-02.03.07:184][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:184][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent.uasset.
+[2017.04.04-02.03.07:184][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:185][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:185][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent.uasset.
+[2017.04.04-02.03.07:185][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:185][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:185][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Mage_Anim_BP_Parent_C
+[2017.04.04-02.03.07:185][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:185][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Mage_Anim_BP_Parent_C
+[2017.04.04-02.03.07:185][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:187][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front'
+[2017.04.04-02.03.07:187][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:187][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front
+[2017.04.04-02.03.07:187][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front'
+[2017.04.04-02.03.07:187][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:187][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front
+[2017.04.04-02.03.07:187][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:187][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:187][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:187][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:187][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:188][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:188][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front'
+[2017.04.04-02.03.07:188][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front.Standing_React_Small_From_Front Referenced by Default__Mage_Anim_BP_Parent_C
+[2017.04.04-02.03.07:188][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:188][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front.Standing_React_Small_From_Front Referenced by Default__Mage_Anim_BP_Parent_C
+[2017.04.04-02.03.07:188][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front
+[2017.04.04-02.03.07:188][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:188][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Mage_Anim_BP_Parent
+[2017.04.04-02.03.07:188][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:188][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Mage_Anim_BP_Parent
+[2017.04.04-02.03.07:188][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:192][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front'
+[2017.04.04-02.03.07:192][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front.Standing_React_Small_From_Front Referenced by AnimGraphNode_SequencePlayer_272
+[2017.04.04-02.03.07:192][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:192][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front.Standing_React_Small_From_Front Referenced by AnimGraphNode_SequencePlayer_272
+[2017.04.04-02.03.07:192][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_React_Small_From_Front
+[2017.04.04-02.03.07:199][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace'
+[2017.04.04-02.03.07:199][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace.Standing_Walk_Forward_inPlace Referenced by Blend_Space_Mage
+[2017.04.04-02.03.07:199][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:199][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace.Standing_Walk_Forward_inPlace Referenced by Blend_Space_Mage
+[2017.04.04-02.03.07:199][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Standing_Walk_Forward_inPlace
+[2017.04.04-02.03.07:199][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:199][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Blend_Space_Mage
+[2017.04.04-02.03.07:199][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:199][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Blend_Space_Mage
+[2017.04.04-02.03.07:199][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:200][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:200][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Standing_1H_Magic_Attack_01
+[2017.04.04-02.03.07:200][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:200][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Standing_1H_Magic_Attack_01
+[2017.04.04-02.03.07:200][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:201][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:201][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Standing_React_Death_Backward
+[2017.04.04-02.03.07:201][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:201][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Standing_React_Death_Backward
+[2017.04.04-02.03.07:201][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:201][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.07:201][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by standing_idle_02
+[2017.04.04-02.03.07:202][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:202][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by standing_idle_02
+[2017.04.04-02.03.07:202][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton
+[2017.04.04-02.03.07:207][  0]LogBlueprint:Error: [Compiler Mage_Anim_BP_Parent] Error  Mage_Anim_BP_Parent  - The skeleton asset for this animation Blueprint is missing, so it cannot be compiled!
+[2017.04.04-02.03.07:214][  0]LogBlueprint:Warning: [Compiler Mage_Anim_BP_Parent] Warning [0021.59] Compile of Mage_Anim_BP_Parent failed. 1 Fatal Issue(s) 0 Warning(s) [in 10 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent.Mage_Anim_BP_Parent)
+[2017.04.04-02.03.07:214][  0]LogBlueprint:Warning: [Compiler Mage_Anim_BP_Parent] Warning [0021.59] Compile of Mage_Anim_BP_Parent failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent.Mage_Anim_BP_Parent)
+[2017.04.04-02.03.07:214][  0]LogBlueprint:Warning: [Compiler Mage_Anim_BP_Parent] Warning [0021.59] Compile of Mage_Anim_BP_Parent failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Animations/Mage/Mage_Anim_BP_Parent.Mage_Anim_BP_Parent)
+[2017.04.04-02.03.07:216][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian'
+[2017.04.04-02.03.07:216][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:216][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian
+[2017.04.04-02.03.07:217][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian'
+[2017.04.04-02.03.07:217][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage.uasset.
+[2017.04.04-02.03.07:217][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Player_Mage : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian
+[2017.04.04-02.03.07:220][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian'
+[2017.04.04-02.03.07:220][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian.Galtrilian Referenced by SkeletalMesh928ECEC842EC5B126434458BD66D5BBD
+[2017.04.04-02.03.07:220][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.07:220][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian.Galtrilian Referenced by SkeletalMesh928ECEC842EC5B126434458BD66D5BBD
+[2017.04.04-02.03.07:220][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian
+[2017.04.04-02.03.07:334][  0]LogBlueprint:Error: [Compiler Unit_Parent] Error No input structure to break for  Struct Item
+[2017.04.04-02.03.07:336][  0]LogBlueprint:Error: [Compiler Unit_Parent] Error No input structure to break for  Struct Item
+[2017.04.04-02.03.07:336][  0]LogBlueprint:Error: [Compiler Unit_Parent] Error No input structure to break for  Struct Item
+[2017.04.04-02.03.07:336][  0]LogBlueprint:Error: [Compiler Unit_Parent] Error No input structure to break for  Struct Item
+[2017.04.04-02.03.07:372][  0]LogBlueprint:Warning: [Compiler Unit_Parent] Warning [0021.75] Compile of Unit_Parent failed. 4 Fatal Issue(s) 0 Warning(s) [in 85 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent)
+[2017.04.04-02.03.07:374][  0]LogBlueprint:Warning: [Compiler Unit_Parent] Warning [0021.75] Compile of Unit_Parent failed. 4 Fatal Issue(s) 1 Warning(s) [in 1 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent)
+[2017.04.04-02.03.07:374][  0]LogBlueprint:Warning: [Compiler Unit_Parent] Warning [0021.75] Compile of Unit_Parent failed. 4 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent)
+[2017.04.04-02.03.07:376][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian'
+[2017.04.04-02.03.07:376][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.07:376][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian
+[2017.04.04-02.03.07:376][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian'
+[2017.04.04-02.03.07:376][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.07:376][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian
+[2017.04.04-02.03.07:393][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom'
+[2017.04.04-02.03.07:393][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.07:393][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom
+[2017.04.04-02.03.07:393][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom'
+[2017.04.04-02.03.07:393][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.07:393][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom
+[2017.04.04-02.03.07:403][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow'
+[2017.04.04-02.03.07:403][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.07:403][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow
+[2017.04.04-02.03.07:404][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow'
+[2017.04.04-02.03.07:404][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.07:404][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow
+[2017.04.04-02.03.07:481][  0]LogBlueprint:Error: [Compiler Item_Data] Error COMPILER ERROR: failed building connection with 'Only exactly matching structures are considered compatible.' at  Set DraggedItem
+[2017.04.04-02.03.07:484][  0]LogBlueprint:Error: [Compiler Item_Data] Error COMPILER ERROR: failed building connection with 'Only exactly matching structures are considered compatible.' at  Set
+[2017.04.04-02.03.07:484][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  Dragged Item  and  New Weapon : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:484][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  New Weapon  and  Dragged Item : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:484][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  Dragged Item  and  Item : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:484][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  Item  and  Dragged Item : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:485][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  Item  and  Item Data : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:485][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  Item Data  and  Item : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:485][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  Dragged Item  and  New Head Armor : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:485][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  New Head Armor  and  Dragged Item : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:485][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  New Chest Armor  and  Dragged Item : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:485][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  New Feet Armor  and  Dragged Item : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:485][  0]LogBlueprint:Error: [Compiler Item_Data] Error Can't connect pins  Item  and  Dragged Item : Only exactly matching structures are considered compatible.
+[2017.04.04-02.03.07:495][  0]LogBlueprint:Warning: [Compiler Item_Data] Warning [0021.87] Compile of Item_Data failed. 13 Fatal Issue(s) 0 Warning(s) [in 18 ms] (/Game/AdvancedTurnBasedTileToolkit/UI/Game/Item_Data.Item_Data)
+[2017.04.04-02.03.07:496][  0]LogBlueprint:Warning: [Compiler Item_Data] Warning [0021.87] Compile of Item_Data failed. 13 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/UI/Game/Item_Data.Item_Data)
+[2017.04.04-02.03.07:496][  0]LogBlueprint:Warning: [Compiler Item_Data] Warning [0021.87] Compile of Item_Data failed. 13 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/UI/Game/Item_Data.Item_Data)
+[2017.04.04-02.03.07:497][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF'
+[2017.04.04-02.03.07:497][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/UI/Game/Inventory.uasset.
+[2017.04.04-02.03.07:497][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/UI/Game/Inventory : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_fbm/Arrow_DIFF
+[2017.04.04-02.03.07:920][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse'
+[2017.04.04-02.03.07:920][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.07:920][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse
+[2017.04.04-02.03.07:920][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse'
+[2017.04.04-02.03.07:921][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.07:921][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse
+[2017.04.04-02.03.07:921][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular'
+[2017.04.04-02.03.07:921][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.07:921][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular
+[2017.04.04-02.03.07:946][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse'
+[2017.04.04-02.03.07:946][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.07:946][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse
+[2017.04.04-02.03.07:946][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse'
+[2017.04.04-02.03.07:946][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.07:946][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse
+[2017.04.04-02.03.07:946][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular'
+[2017.04.04-02.03.07:946][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.07:946][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular
+[2017.04.04-02.03.07:947][  0]LogClass:Warning: Property Inventory of Inventory has a struct type mismatch (tag STRUCT_REINST_Struct_Item_8 != prop FallbackStruct) in package:  ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.07:947][  0]LogClass:Warning: Property Weapon of Weapon has a struct type mismatch (tag STRUCT_REINST_Struct_Item_8 != prop FallbackStruct) in package:  ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.07:947][  0]LogClass:Warning: Property HeadArmor of HeadArmor has a struct type mismatch (tag STRUCT_REINST_Struct_Item_8 != prop FallbackStruct) in package:  ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.07:947][  0]LogClass:Warning: Property ChestArmor of ChestArmor has a struct type mismatch (tag STRUCT_REINST_Struct_Item_8 != prop FallbackStruct) in package:  ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.07:947][  0]LogClass:Warning: Property FeetArmor of FeetArmor has a struct type mismatch (tag STRUCT_REINST_Struct_Item_8 != prop FallbackStruct) in package:  ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.08:114][  0]LogBlueprint:Warning: [Compiler ATBTT_PlayerController] Warning InputAction Event references unknown Action 'OpenInventory' for  InputAction OpenInventory
+[2017.04.04-02.03.08:149][  0]LogBlueprint:Warning: [Compiler ATBTT_PlayerController] Warning [0022.52] Compile of ATBTT_PlayerController successful, but with 1 Warning(s) [in 97 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController)
+[2017.04.04-02.03.08:153][  0]LogBlueprint:Warning: [Compiler ATBTT_PlayerController] Warning [0022.53] Compile of ATBTT_PlayerController successful, but with 2 Warning(s) [in 4 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController)
+[2017.04.04-02.03.08:153][  0]LogBlueprint:Warning: [Compiler ATBTT_PlayerController] Warning [0022.53] Compile of ATBTT_PlayerController successful, but with 3 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController)
+[2017.04.04-02.03.08:155][  0]LogClass:Warning: Property Inventory of Inventory has a struct type mismatch (tag FallbackStruct != prop Struct_Item) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.08:155][  0]LogClass:Warning: Property Weapon of Weapon has a struct type mismatch (tag FallbackStruct != prop Struct_Item) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.08:155][  0]LogClass:Warning: Property HeadArmor of HeadArmor has a struct type mismatch (tag FallbackStruct != prop Struct_Item) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.08:155][  0]LogClass:Warning: Property ChestArmor of ChestArmor has a struct type mismatch (tag FallbackStruct != prop Struct_Item) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.08:155][  0]LogClass:Warning: Property FeetArmor of FeetArmor has a struct type mismatch (tag FallbackStruct != prop Struct_Item) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.04.04-02.03.08:289][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse'
+[2017.04.04-02.03.08:289][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.08:289][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse
+[2017.04.04-02.03.08:289][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse'
+[2017.04.04-02.03.08:289][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.08:289][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse
+[2017.04.04-02.03.08:289][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular'
+[2017.04.04-02.03.08:289][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.08:289][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular
+[2017.04.04-02.03.08:290][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse'
+[2017.04.04-02.03.08:290][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.08:290][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/FemaleFitA_Body_diffuse
+[2017.04.04-02.03.08:290][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse'
+[2017.04.04-02.03.08:290][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.08:290][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_diffuse
+[2017.04.04-02.03.08:291][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular'
+[2017.04.04-02.03.08:291][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular' while loading ../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.uasset.
+[2017.04.04-02.03.08:291][  0]LoadErrors:Error: Error /Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController : Can't find file for asset. /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_specular
+[2017.04.04-02.03.09:596][  0]LogClass:Warning: Enum '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Enums/Enum_Height.Enum_Height' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.04.04-02.03.09:635][  0]LogClass:Warning: Enum '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Enums/Enum_DisplayObject.Enum_DisplayObject' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.04.04-02.03.09:642][  0]LogClass:Warning: Enum '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Enums/Enum_TileSpawn.Enum_TileSpawn' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.04.04-02.03.09:665][  0]LogClass:Warning: Enum '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Enums/Enum_MovePriority.Enum_MovePriority' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.04.04-02.03.09:690][  0]LogClass:Warning: Enum '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Enums/Enum_PathfindingType.Enum_PathfindingType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.04.04-02.03.10:704][  0]LogBlueprint:Error: [Compiler Unit_Parent] Error No input structure to break for  Struct Item
+[2017.04.04-02.03.10:706][  0]LogBlueprint:Error: [Compiler Unit_Parent] Error No input structure to break for  Struct Item
+[2017.04.04-02.03.10:706][  0]LogBlueprint:Error: [Compiler Unit_Parent] Error No input structure to break for  Struct Item
+[2017.04.04-02.03.10:706][  0]LogBlueprint:Error: [Compiler Unit_Parent] Error No input structure to break for  Struct Item
+[2017.04.04-02.03.10:767][  0]LogBlueprint:Warning: [Compiler Unit_Parent] Warning [0025.14] Compile of Unit_Parent failed. 4 Fatal Issue(s) 0 Warning(s) [in 103 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent)
+[2017.04.04-02.03.10:767][  0]LogBlueprint:Warning: [Compiler Unit_Parent] Warning [0025.14] Compile of Unit_Parent failed. 4 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent)
+[2017.04.04-02.03.10:800][  0]LogBlueprint:Warning: [Compiler Unit_Parent] Warning [0025.17] Compile of Unit_Parent failed. 4 Fatal Issue(s) 2 Warning(s) [in 32 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Pawns/Unit_Parent.Unit_Parent)
+[2017.04.04-02.03.11:049][  0]LogBlueprint:Warning: [Compiler ATBTT_PlayerController] Warning InputAction Event references unknown Action 'OpenInventory' for  InputAction OpenInventory
+[2017.04.04-02.03.11:073][  0]LogBlueprint:Warning: [Compiler ATBTT_PlayerController] Warning [0025.45] Compile of ATBTT_PlayerController successful, but with 1 Warning(s) [in 69 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController)
+[2017.04.04-02.03.11:073][  0]LogBlueprint:Warning: [Compiler ATBTT_PlayerController] Warning [0025.45] Compile of ATBTT_PlayerController successful, but with 2 Warning(s) [in 0 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController)
+[2017.04.04-02.03.11:079][  0]LogBlueprint:Warning: [Compiler ATBTT_PlayerController] Warning [0025.45] Compile of ATBTT_PlayerController successful, but with 3 Warning(s) [in 5 ms] (/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/ATBTT_PlayerController.ATBTT_PlayerController)
+[2017.04.04-02.03.15:625][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.15:625][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_walk_forward_inPlace
+[2017.04.04-02.03.15:626][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:626][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_walk_forward_inPlace
+[2017.04.04-02.03.15:626][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.15:626][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_run_forward_inPlace
+[2017.04.04-02.03.15:626][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:626][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_run_forward_inPlace
+[2017.04.04-02.03.15:626][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.15:626][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_idle_01
+[2017.04.04-02.03.15:626][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:626][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_idle_01
+[2017.04.04-02.03.15:627][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.15:627][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_draw_arrow
+[2017.04.04-02.03.15:627][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:627][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_draw_arrow
+[2017.04.04-02.03.15:627][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton'
+[2017.04.04-02.03.15:627][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_aim_recoil
+[2017.04.04-02.03.15:627][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:627][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Erika_Archer_with_bow_arrow_Skeleton.Erika_Archer_with_bow_arrow_Skeleton Referenced by standing_aim_recoil
+[2017.04.04-02.03.15:633][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.15:633][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Standing_Run_Forward_inPlace
+[2017.04.04-02.03.15:633][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:633][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by Standing_Run_Forward_inPlace
+[2017.04.04-02.03.15:634][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton'
+[2017.04.04-02.03.15:634][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by standing_idle
+[2017.04.04-02.03.15:634][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:634][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Galtrilian_Skeleton.Galtrilian_Skeleton Referenced by standing_idle
+[2017.04.04-02.03.15:634][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.15:634][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_run_inPlace
+[2017.04.04-02.03.15:634][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:634][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_run_inPlace
+[2017.04.04-02.03.15:635][  0]LogLinker:Warning: Can't find file '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton'
+[2017.04.04-02.03.15:635][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_idle_3
+[2017.04.04-02.03.15:635][  0]LogLinker:Warning: Can't find file for asset '/Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton' while loading NULL.
+[2017.04.04-02.03.15:635][  0]LoadErrors: Info Failed to load /Game/AdvancedTurnBasedTileToolkit/Characters/Paladin_w_Prop_J_Nordstrom_Skeleton.Paladin_w_Prop_J_Nordstrom_Skeleton Referenced by sword_and_shield_idle_3
+[2017.04.04-02.03.17:710][  0]LogClass:Warning: Enum '/Game/AdvancedTurnBasedTileToolkit/Blueprints/Gameplay/Enums/Enum_Faction.Enum_Faction' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.04.04-02.03.18:773][  0]LogTexture:Display: Building textures: ClothHat (BGRA8, 41X56) - 46 MB total VRAM
+[2017.04.04-02.03.18:774][  0]LogTexture:Display: Building textures: ClothChest (BGRA8, 48X53) - 46 MB total VRAM
+[2017.04.04-02.03.18:774][  0]LogTexture:Display: Building textures: ClothBoots (BGRA8, 50X59) - 46 MB total VRAM
+[2017.04.04-02.03.18:774][  0]LogTexture:Display: Building textures: IronHelmet (BGRA8, 43X55) - 46 MB total VRAM
+[2017.04.04-02.03.18:775][  0]LogTexture:Display: Building textures: IronBoots (BGRA8, 44X51) - 46 MB total VRAM
+[2017.04.04-02.03.18:775][  0]LogTexture:Display: Building textures: IronChest (BGRA8, 56X57) - 46 MB total VRAM
+[2017.04.04-02.03.18:776][  0]LogTexture:Display: Building textures: LeatherHat (BGRA8, 38X56) - 46 MB total VRAM
+[2017.04.04-02.03.18:776][  0]LogTexture:Display: Building textures: LeatherChest (BGRA8, 54X52) - 46 MB total VRAM
+[2017.04.04-02.03.18:776][  0]LogTexture:Display: Building textures: LeatherBoots (BGRA8, 46X58) - 46 MB total VRAM
+[2017.04.04-02.03.19:641][  0]LogTexture:Display: Building textures: c14fbb07fc936cb4ad23d0bdaf5e0079-d4n4zuk (AutoDXT, 1300X836) - 46 MB total VRAM
+[2017.04.04-02.03.23:218][  0]LogTexture:Display: Building textures: Options_Background (BGRA8, 1500X927) - 47 MB total VRAM
+[2017.04.04-02.03.23:964][  0]LogTexture:Display: Building textures: temple_ruins_by_jonasdero-d5ej8nc (BGRA8, 1280X694) - 55 MB total VRAM
+[2017.04.04-02.03.24:167][  0]LogAIModule: Creating AISystem for world Map_Grid_Example
+[2017.04.04-02.03.24:220][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.04-02.03.24:221][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.04-02.03.24:284][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.347ms to complete.
+[2017.04.04-02.03.24:284][  0]LogFileHelpers: Loading map 'Map_Grid_Example' took 21.190
+[2017.04.04-02.03.24:355][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.04-02.03.24:462][  0]LogCollectionManager: Loaded 0 collections in 0.001781 seconds
+[2017.04.04-02.03.24:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Saved/Collections/' took 0.01s
+[2017.04.04-02.03.24:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/Developers/Noctis/Collections/' took 0.01s
+[2017.04.04-02.03.24:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/Collections/' took 0.01s
+[2017.04.04-02.03.24:540][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.04-02.03.24:548][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2245 classes and 453 folders.
+[2017.04.04-02.03.24:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.04-02.03.24:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.04-02.03.24:615][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.04-02.03.24:649][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.04-02.03.24:693][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.04-02.03.24:739][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.04-02.03.24:745][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.04-02.03.25:285][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.04-02.03.25:307][  0]LogLoad: (Engine Initialization) Total time: 39.68 seconds
+[2017.04.04-02.03.25:307][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 3.71 seconds
+[2017.04.04-02.03.25:307][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.04-02.03.25:307][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.04-02.03.25:317][  0]LogOcInput: OculusInput pre-init called
+[2017.04.04-02.03.25:344][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.04.04-02.03.25:358][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.04-02.03.25:362][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.04-02.03.25:366][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.04-02.03.25:547][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.04-02.03.25:578][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.04-02.03.55:925][148]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/' took 30.61s
+[2017.04.04-02.04.47:634][303]LogAssetRegistry: Asset discovery search completed in 113.3448 seconds
+[2017.04.04-02.04.47:634][303]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.04.04-02.04.47:634][303]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.04.04-03.30.58:400][537]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.04-03.30.58:928][538]Cmd: QUIT_EDITOR
+[2017.04.04-03.30.59:222][538]LogExit: Preparing to exit.
+[2017.04.04-03.31.00:818][538]LogDirectoryWatcher: A directory notification for 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/' was aborted.
+[2017.04.04-03.31.01:172][538]LogExit: Editor shut down
+[2017.04.04-03.31.01:176][538]LogExit: Transaction tracking system shut down
+[2017.04.04-03.31.02:688][538]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.04-03.31.02:689][538]LogExit: Object subsystem successfully closed.
+[2017.04.04-03.31.02:861][538]LogD3D11RHI: Shutdown
+[2017.04.04-03.31.02:862][538]LogD3D11RHI: CleanupD3DDevice
+[2017.04.04-03.31.02:982][538]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.04-03.31.03:764][538]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.04-03.31.03:765][538]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.04-03.31.03:765][538]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.04-03.31.03:769][538]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.04-03.31.03:785][538]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.04-03.31.03:806][538]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.04-03.31.03:806][538]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.04-03.31.03:806][538]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.04-03.31.03:817][538]LogDirectoryWatcher: A directory notification for 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/Collections/' was aborted.
+[2017.04.04-03.31.03:817][538]LogDirectoryWatcher: A directory notification for 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/Developers/Noctis/Collections/' was aborted.
+[2017.04.04-03.31.03:817][538]LogDirectoryWatcher: A directory notification for 'C:/Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Saved/Collections/' was aborted.
+[2017.04.04-03.31.03:818][538]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.04-03.31.03:818][538]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.04-03.31.03:818][538]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.04-03.31.03:836][538]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.04-03.31.03:836][538]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.04-03.31.03:836][538]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.04-03.31.03:836][538]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.04-03.31.03:836][538]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.04-03.31.03:841][538]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.04-03.31.03:841][538]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.04-03.31.03:846][538]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.04-03.31.03:853][538]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.04-03.31.03:902][538]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.04-03.31.03:922][538]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.04-03.31.03:929][538]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.04-03.31.03:984][538]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.04-03.31.03:984][538]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.04-03.31.03:984][538]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.04-03.31.03:984][538]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.04-03.31.03:984][538]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.04-03.31.03:997][538]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.04-03.31.03:999][538]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.04-03.31.04:007][538]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.04-03.31.04:007][538]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.04-03.31.04:007][538]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.04-03.31.04:007][538]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.04-03.31.04:044][538]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.04-03.31.04:436][538]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.04-03.31.04:436][538]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.04-03.31.04:436][538]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.04-03.31.04:456][538]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.04-03.31.04:474][538]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.04-03.31.04:480][538]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.04-03.31.04:484][538]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.04-03.31.04:493][538]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.04-03.31.04:493][538]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.04-03.31.04:499][538]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.04-03.31.04:508][538]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.04-03.31.04:508][538]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.04-03.31.04:511][538]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.04-03.31.04:514][538]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.04-03.31.04:514][538]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.04-03.31.04:515][538]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.04-03.31.04:521][538]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.04-03.31.04:521][538]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.04-03.31.04:522][538]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.04-03.31.04:522][538]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.04-03.31.04:529][538]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.04-03.31.04:540][538]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.04-03.31.04:544][538]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.04-03.31.04:550][538]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.04-03.31.04:561][538]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.04-03.31.04:606][538]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.04-03.31.04:614][538]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.04-03.31.04:623][538]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.04-03.31.04:640][538]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.04-03.31.04:640][538]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.04-03.31.04:648][538]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.04-03.31.04:649][538]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.04-03.31.04:670][538]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.04-03.31.04:670][538]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.04-03.31.04:683][538]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.04-03.31.04:713][538]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.04-03.31.04:714][538]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.04-03.31.04:719][538]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.04-03.31.04:728][538]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.04-03.31.04:739][538]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.04-03.31.04:742][538]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.04-03.31.04:747][538]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.04-03.31.04:750][538]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.04-03.31.04:750][538]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.04-03.31.04:912][538]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.04-03.31.04:914][538]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.04-03.31.04:914][538]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.04-03.31.04:914][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.04-03.31.04:914][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.04-03.31.04:938][538]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.04-03.31.04:938][538]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.04-03.31.04:938][538]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.04-03.31.04:938][538]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.04-03.31.04:938][538]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.04-03.31.04:945][538]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.04-03.31.04:945][538]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.04-03.31.04:969][538]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.04-03.31.04:969][538]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.04-03.31.04:974][538]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.04-03.31.04:974][538]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.04-03.31.04:983][538]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.04-03.31.04:983][538]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.04-03.31.04:983][538]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.04-03.31.04:983][538]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.04-03.31.04:983][538]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.04-03.31.04:993][538]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.04-03.31.05:003][538]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.04-03.31.05:003][538]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.04-03.31.05:003][538]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.04-03.31.05:003][538]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.04-03.31.05:003][538]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.04-03.31.05:013][538]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.04-03.31.05:018][538]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.04-03.31.05:021][538]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.04-03.31.05:026][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.04-03.31.05:026][538]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.04-03.31.05:026][538]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.04-03.31.05:026][538]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.04-03.31.05:046][538]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.04-03.31.05:054][538]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.04-03.31.05:059][538]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.04-03.31.05:074][538]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.04-03.31.05:074][538]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.04-03.31.05:083][538]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.04-03.31.05:085][538]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.04-03.31.05:094][538]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.04-03.31.05:094][538]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.04-03.31.05:094][538]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.04-03.31.05:195][538]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.04-03.31.05:342][538]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.04-03.31.05:412][538]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.04-03.31.05:421][538]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.04-03.31.05:421][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.04-03.31.05:421][538]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.04-03.31.05:431][538]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.04-03.31.05:436][538]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.04-03.31.05:456][538]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.04-03.31.05:456][538]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.04-03.31.05:456][538]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.04-03.31.05:481][538]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.04-03.31.05:481][538]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.04-03.31.05:481][538]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.04-03.31.05:498][538]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.04-03.31.05:501][538]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.04-03.31.05:512][538]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.04-03.31.05:523][538]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.04-03.31.05:538][538]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.04-03.31.05:558][538]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.04-03.31.05:572][538]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.04-03.31.05:572][538]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.04-03.31.05:572][538]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.04-03.31.05:587][538]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.04-03.31.05:587][538]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.04-03.31.05:593][538]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.04-03.31.05:593][538]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.04-03.31.05:593][538]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.04-03.31.05:593][538]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.04-03.31.05:593][538]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.04-03.31.05:593][538]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.04-03.31.05:934][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.04-03.31.05:934][538]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Noctis/Documents/GitHub/DMT-V/src/DMT_V/Content/' was aborted.
+[2017.04.04-03.31.05:934][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.04-03.31.05:936][538]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.04-03.31.05:942][538]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.04-03.31.05:942][538]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.04-03.31.05:942][538]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.04-03.31.05:958][538]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.04-03.31.05:962][538]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.04-03.31.05:962][538]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.04-03.31.05:970][538]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.04-03.31.05:987][538]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.04-03.31.06:079][538]LogDerivedDataCache: Shutdown
+[2017.04.04-03.31.06:079][538]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.04-03.31.06:079][538]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.04-03.31.06:086][538]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.04-03.31.06:101][538]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.04-03.31.06:102][538]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.04-03.31.06:106][538]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.04-03.31.06:106][538]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.04-03.31.06:106][538]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.04-03.31.06:106][538]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.04-03.31.06:109][538]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.04-03.31.06:109][538]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.04-03.31.06:109][538]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.04-03.31.06:109][538]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.04-03.31.06:113][538]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.04-03.31.06:118][538]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.04-03.31.06:118][538]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.04-03.31.06:118][538]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.04-03.31.06:118][538]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.04-03.31.06:118][538]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.04-03.31.06:182][538]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.04-03.31.06:191][538]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.04-03.31.06:200][538]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.04-03.31.06:200][538]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B79E381BB-4ECF-CEAE-C3FB-F29A7C826FAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=8a66d443438db931fbbba4a50deabdc4%7C74518bba07744d28aa01a398e2d57a03%7C51db86bd-1859-41d6-b6f2-b7a675220cee&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.04-03.31.06:202][538]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.04-03.31.06:212][538]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.04-03.31.06:216][538]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.04-03.31.06:216][538]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.04-03.31.06:216][538]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.04-03.31.06:216][538]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.04-03.31.06:230][538]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.04-03.31.06:237][538]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.04-03.31.06:237][538]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.04-03.31.06:243][538]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.04-03.31.06:244][538]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.04-03.31.06:244][538]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.04-03.31.06:244][538]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.04-03.31.06:251][538]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.04-03.31.06:257][538]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.04-03.31.06:257][538]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.04-03.31.06:259][538]LogExit: Exiting.
+[2017.04.04-03.31.06:269][538]Log file closed, 04/03/17 23:31:06
