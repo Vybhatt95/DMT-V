@@ -1,12 +1,12 @@
 ## Dungeon of the Mighty Titan - Vanquish (DMT-V)
 
-###Project Statement
+### Project Statement
 A multiplayer video game built using Unreal Engine 4 that allows for 3 to 5 players to fight AI controlled monsters in a dungeon-like setting.
 
-###Project Description
+### Project Description
 Over the years, there has been a surge in popularity of massively multiplayer online games. One prominent feature of these games is the dungeon raiding mechanics they employ. Players form groups to fight hordes of enemies and powerful bosses as they travel through dungeons in order to obtain rare items. However, players will usually have to play for many hours before they can experience these adventures, as they require high-leveled and well-equipped characters to survive. With our game, players will be able to form a group and raid dungeons right from the beginning.
 
-###Requirements to Run Software
+### Requirements to Run Software
 To execute the standalone video game program:
  * Recommended System Requirements (Tentative)
     - OS: Windows OS (tested at 7 or newer).
@@ -23,19 +23,19 @@ To compile the code (above requirements, in addition to):
   * Unreal Editor (tested on v 4.14.3)
   * To download the latest Unreal Engine, please visit their website at: [www.UnrealEngine.com](https://www.unrealengine.com/what-is-unreal-engine-4).
 
-###What does this repository contain?
+### What does this repository contain?
    * All source code files:
        - C++
        - Blueprint
    * Assets 
    * Documentation
   
-###What does this repository not contain?   
+### What does this repository not contain?   
    * Unreal Engine class files
    * Steam SDK packages
    * Visual Studio files
 
-###Team Members and Responsibilities (Subject to Change)
+### Team Members and Responsibilities (NEEDS TO BE UPDATED)
 
 David Bond: 
   * Coding of the Game State major subsystem. 
@@ -57,6 +57,6 @@ Vishal Bhatt:
   * Coordination of audio and sound aspects of the game. 
   * Research into open-source world meshes, level designs, and audio assets.
 
-###System Model Diagram (TODO: Create a more accurate system model)
+### System Model Diagram (TODO: Create a more accurate system model)
 
-###Screenshots (TODO)
+### Screenshots (TODO)
