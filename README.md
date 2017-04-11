@@ -1,4 +1,4 @@
-##Dungeon of the Mighty Titan - Vanquish (DMT-V)
+## Dungeon of the Mighty Titan - Vanquish (DMT-V)
 
 ###Project Statement
 A multiplayer video game built using Unreal Engine 4 that allows for 3 to 5 players to fight AI controlled monsters in a dungeon-like setting.
