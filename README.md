@@ -60,6 +60,8 @@ Vishal Bhatt:
 ### System Model Diagram
 ![alt tag](https://github.com/Vybhatt95/DMT-V/blob/master/Documentation/Models/System%20Model%202.png)
 
-### Screenshots (TODO)
+### Screenshots
+The first level in the game.
 ![alt tag](https://github.com/Vybhatt95/DMT-V/blob/master/Documentation/Screenshots/Map.png)
+Showing the contents of a chest.
 ![alt tag](https://github.com/Vybhatt95/DMT-V/blob/master/Documentation/Screenshots/Loot.png)
