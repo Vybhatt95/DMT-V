@@ -20,7 +20,7 @@ To execute the standalone video game program:
     - Visual Studio Service Pack: **TBA**
   
 To compile the code (above requirements, in addition to):  
-  * Unreal Editor (tested on v 4.14.3)
+  * Unreal Editor (tested on v 4.15)
   * To download the latest Unreal Engine, please visit their website at: [www.UnrealEngine.com](https://www.unrealengine.com/what-is-unreal-engine-4).
 
 ### What does this repository contain?
@@ -35,7 +35,7 @@ To compile the code (above requirements, in addition to):
    * Steam SDK packages
    * Visual Studio files
 
-### Team Members and Responsibilities (NEEDS TO BE UPDATED)
+### Team Members and Responsibilities
 
 David Bond: 
   * Coding of the Game State major subsystem. 
