@@ -57,7 +57,9 @@ Vishal Bhatt:
   * Coordination of audio and sound aspects of the game. 
   * Research into open-source world meshes, level designs, and audio assets.
 
-### System Model Diagram (TODO: Create a more accurate system model)
+### System Model Diagram
 ![alt tag](https://github.com/Vybhatt95/DMT-V/blob/master/Documentation/Models/System%20Model%202.png)
 
 ### Screenshots (TODO)
+![alt tag](https://github.com/Vybhatt95/DMT-V/blob/master/Documentation/Screenshots/Map.png)
+![alt tag](https://github.com/Vybhatt95/DMT-V/blob/master/Documentation/Screenshots/Loot.png)
