@@ -1,4 +1,4 @@
-## Dungeon of the Mighty Titan - Vanquish (DMT-V)
+## Dungeon of the Mighty Titan - Vanquish 
 
 ### Project Statement
 A multiplayer video game built using Unreal Engine 4 that allows for 3 to 5 players to fight AI controlled monsters in a dungeon-like setting.
@@ -58,5 +58,6 @@ Vishal Bhatt:
   * Research into open-source world meshes, level designs, and audio assets.
 
 ### System Model Diagram (TODO: Create a more accurate system model)
+![alt tag](https://github.com/Vybhatt95/DMT-V/blob/master/Documentation/Models/System%20Model%202.png)
 
 ### Screenshots (TODO)
