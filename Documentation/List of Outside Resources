@@ -14,53 +14,37 @@ Coding Reference
 8.  "Game Mode And Game State". Docs.unrealengine.com. N.p., 2017. Web. 18 Apr. 2017.
 
 Assets
-Epic Games' Infinite Blade Collection:
-  Infinity Blade: Grass Lands
-  Infinity Blade: Fire Lands
-  Infinity Blade: Ice Lands
-  Infinity Blade: Warriors
-  Infinity Blade: Weapons
-  Infinity Blade: Adversaries
-  Infinity Blade: Effects
-
-Characters & Animations
-https://www.mixamo.com/store/#/
+Epic Games' Infinite Blade Collection
 
 2D Textures
 
 Armor: 
-http://opengameart.org/content/armor-icons-by-equipment-slot
+C. Bellanger, B. Crowline, J. Nichol, "Armor Icons by Equipment Slot", 2012. [Online]. Available: http://opengameart.org/content/armor-icons-by-equipment-slot
 
 Weapons: 
-https://opengameart.org/content/osare-weapon-icons
-https://opengameart.org/content/flare-item-variation-60x60-only
-https://opengameart.org/content/32x32-icons-flare-compatible
-https://opengameart.org/content/short-sword-64x64
-https://opengameart.org/content/weapons-64x64
-https://opengameart.org/content/staff-64-x64
-https://opengameart.org/content/fantasy-icon-pack-by-ravenmore-0
-https://opengameart.org/content/golden-items-rip-upgrade-pack
+Blarumyrran, "OSARE Weapon Icons", 2010. [Online]. Available: https://opengameart.org/content/osare-weapon-icons
+Mumu, "Flare Item Variation", 2011. [Online]. Available: https://opengameart.org/content/flare-item-variation-60x60-only
+VWolfdog, "32x32 Icons (FLARE Compatible)", 2013. [Online]. Available: https://opengameart.org/content/32x32-icons-flare-compatible
+LordNeo, "Short Sword", 2012. [Online]. Available: https://opengameart.org/content/short-sword-64x64
+LordNeo, "Weapons", 2012. [Online]. Available: https://opengameart.org/content/weapons-64x64
+LordNeo, "Staff", 2013. [Online]. Available: https://opengameart.org/content/staff-64-x64
+Ravenmore, "Fantasy Icon Pack", 2012. [Online]. Available: https://opengameart.org/content/fantasy-icon-pack-by-ravenmore-0
+Ravenmore, "Gold Items", 2014. [Online]. Available: https://opengameart.org/content/golden-items-rip-upgrade-pack
 
 HUD
-http://opengameart.org/content/moderna-graphical-interface
-
-Music
-http://opengameart.org/art-search-advanced?keys=fantasy&title=&field_art_tags_tid_op=or&field_art_tags_tid=&name=&field_art_type_tid%5B%5D=12&field_art_licenses_tid%5B%5D=2&field_art_licenses_tid%5B%5D=3&field_art_licenses_tid%5B%5D=6&field_art_licenses_tid%5B%5D=5&field_art_licenses_tid%5B%5D=10310&field_art_licenses_tid%5B%5D=4&field_art_licenses_tid%5B%5D=8&field_art_licenses_tid%5B%5D=7&sort_by=totalcount&sort_order=DESC&items_per_page=24&Collection=
-
-Good menu system background music?
-http://opengameart.org/content/heroic-demise-updated-version
+J. Avila, "Moderna Graphical Interface", 2010. [Online]. Available: http://opengameart.org/content/moderna-graphical-interface
 
 Treasure Chest
-https://www.turbosquid.com/3d-models/free-treasure-chest-3d-model/615861
+HD_Ready, "Free Treasure Chest", 2011. [Online]. Available: https://www.turbosquid.com/3d-models/free-treasure-chest-3d-model/615861
 
 Grave Marker
-https://www.turbosquid.com/3d-model/grave?sort_column=A5&sort_order=asc
+Turksandwich79, "Tombstone RIP", 2012. [Online]. Available: https://www.turbosquid.com/3d-models/rip-tombstone-obj-free/702820
 
 Gold thumbnail
-http://gallery.yopriceville.com/Free-Clipart-Pictures/Money-PNG/Coins_Stack_PNG_Clipart_Picture
+YoPriceVille.com, "Coins Stack PNG Clipart Picture", n.d. [Online]. Available: http://gallery.yopriceville.com/Free-Clipart-Pictures/Money-PNG/Coins_Stack_PNG_Clipart_Picture
 
 Minotaur
-https://www.turbosquid.com/3d-models/character-minotaur-3ds/1044341
+MariyaM15, "Rigged and Animated Minotaur", 2016. [Online]. Available: https://www.turbosquid.com/3d-models/character-minotaur-3ds/1044341
 
 Trash Icon
-http://findicons.com/icon/131420/trash_empty
+The IconFactory, "Trash Empty", n.d. [Online]. Available: http://findicons.com/icon/131420/trash_empty
