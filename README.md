@@ -12,12 +12,11 @@ To execute the standalone video game program:
     - OS: Windows OS (tested at 7 or newer).
     - Processor: Intel Core i5-2400 @ 3.10 GHz
     - Memory: 4GB System RAM
-    - Hard Disk Space: **TBA**
+    - Hard Disk Space: 5 GB
     - Video Card: Radeon HD 7700 or NVIDIA GeForce GTX 570
     - DirectX: 11.0
     - Sound Card: DirectX Compatible Sound Card 
     - Internet: A broadband Internet connection.
-    - Visual Studio Service Pack: **TBA**
   
 To compile the code (above requirements, in addition to):  
   * Unreal Editor (tested on v 4.15)
