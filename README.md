@@ -26,6 +26,7 @@ To compile the code (above requirements, in addition to):
    * All source code files:
        - C++
        - Blueprint
+       - Source code is in src/DMT_V directory.
    * Assets 
    * Documentation
   
